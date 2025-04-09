@@ -1,12 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { useState } from 'react';
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
-import { useRef } from 'react';
-
 const Navbar = () => {
 
     return(
@@ -23,6 +17,11 @@ const Navbar = () => {
                     <li><Link to="/privacy">Privacy Policy</Link></li>
                 </ul>
             </nav>
+            <div className="navbar-content">
+                <h1>Welcome to MyApp</h1>
+                <p>Your one-stop solution for all your needs.</p>
+                <button className="navbar-button">Get Started</button>
+                </div>
         </div>
     )
 };
