@@ -4,7 +4,6 @@ const Privacy =() => {
     return(
     <div>Privacy-part</div>
    
-
     );
 };
 
