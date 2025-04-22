@@ -1,9 +1,7 @@
-import React from 'react';
+import React from "react";
 
-const Constact =() => {
-return(
-<div>Contact-part</div>
-);
+const Contact = () => {
+  return <div>Contact</div>;
 };
 
-export default Constact;
+export default Contact;
